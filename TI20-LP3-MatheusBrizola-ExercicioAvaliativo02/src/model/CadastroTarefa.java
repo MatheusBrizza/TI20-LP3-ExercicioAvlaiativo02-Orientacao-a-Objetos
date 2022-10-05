@@ -2,8 +2,8 @@ package model;
 
 public interface CadastroTarefa {
 
-    void add();
+    void add(Tarefa tarefa);
 
-    void remove();
+    void remove(Tarefa tarefa);
 
 }
