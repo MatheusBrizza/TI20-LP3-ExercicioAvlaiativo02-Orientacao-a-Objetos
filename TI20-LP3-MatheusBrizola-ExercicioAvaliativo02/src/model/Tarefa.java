@@ -13,7 +13,7 @@ public class Tarefa {
         return descricao;
     }
 
-    public void setDescricao(String descricao) {
+    protected void setDescricao(String descricao) {
         this.descricao = descricao;
     }
 
@@ -21,7 +21,7 @@ public class Tarefa {
         return data;
     }
 
-    public void setData(LocalDateTime data) {
+    protected void setData(LocalDateTime data) {
         this.data = data;
     }
 
@@ -29,7 +29,7 @@ public class Tarefa {
         return situacao;
     }
 
-    private void setSituacao(Situacao situacao) {
+    protected void setSituacao(Situacao situacao) {
         this.situacao = situacao;
     }
 
@@ -37,7 +37,7 @@ public class Tarefa {
         return tipoTarefa;
     }
 
-    private void setTipoTarefa(TipoTarefaEnum tipoTarefa) {
+    protected void setTipoTarefa(TipoTarefaEnum tipoTarefa) {
         this.tipoTarefa = tipoTarefa;
     }
 }
